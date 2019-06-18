@@ -20,6 +20,6 @@ envoy_cc_library(
         "//include/envoy/registry",
         "//source/common/common:assert_lib",
         "//source/common/grpc:google_grpc_creds_lib",
-        "//source/extensions/grpc_credentials:well_known_names",
+        "//source/extensions/grpc_credentials:well_known_names"
     ],
 )
